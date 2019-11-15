@@ -1,0 +1,46 @@
+body {
+    padding: 0;
+    margin: 0;
+    border:0;
+    background: #000;
+}
+.postcard {
+    height: 200px;
+    width: 400px;
+    background: #fff;
+}
+
+.postcard .header {
+    width: 100%;
+    height: 50px;
+    background: #ccc;
+}
+
+.postcard .main {
+    width: 100%;
+    height: 200px;
+    background: #333;
+}
+
+.postcard .main .columnLeft{
+    width: 50%;
+    height: 200px;
+    background: #454;
+    float:left;
+}
+
+.postcard .main .columnRight{
+    width: 50%;
+    height: 200px;
+    background: #767;
+    float: right;
+}
+
+
+.postcard .footer {
+    width: 100%;
+    height: 50px;
+    background: #ccc;
+}
+
+
